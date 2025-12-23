@@ -1,10 +1,10 @@
-import express from "express";
-import commentsController from "../controllers/comments.controller.js";
-import { validate } from "../middlewares/validate.middleware.js";
+import commentsController from "@/controllers/comments.controller.js";
+import { validate } from "@/middlewares/validate.middleware.js";
 import {
   createCommentSchema,
   updateCommentSchema,
-} from "../validations/comment.validation.js";
+} from "@/validations/comment.validation.js";
+import express from "express";
 
 const commentRouter = express.Router();
 

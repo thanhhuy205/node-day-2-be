@@ -1,5 +1,5 @@
+import { postModel } from "@/models/post.model.js";
 import { StatusCodes } from "http-status-codes";
-import { postModel } from "../models/post.model.js";
 
 class PostsController {
   async getAll(req, res) {
