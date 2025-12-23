@@ -1,10 +1,10 @@
-import postsController from "@/controllers/posts.controller.js";
-import { validate } from "@/middlewares/validate.middleware.js";
+import express from "express";
+import postsController from "../controllers/posts.controller.js";
+import { validate } from "../middlewares/validate.middleware.js";
 import {
   createPostSchema,
   updatePostSchema,
-} from "@/validations/post.validation.js";
-import express from "express";
+} from "../validations/post.validation.js";
 
 const postRouter = express.Router();
 
