@@ -1,5 +1,5 @@
 import * as yup from "yup";
-import { VALIDATE_MESSAGES } from "../constant/message.constant";
+import { VALIDATE_MESSAGES } from "../constant/message.constant.js";
 
 export const createCommentSchema = yup.object({
   body: yup.object({
