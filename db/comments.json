@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1766500082786,
+    "postId": 1766499308806,
+    "content": "Comment test",
+    "createdAt": "2025-12-23T14:28:02.786Z"
+  },
+  {
+    "id": 1766500090760,
+    "postId": 1766499308806,
+    "content": "Comment test",
+    "createdAt": "2025-12-23T14:28:10.760Z"
+  },
+  {
+    "id": 1766500104536,
+    "postId": 1766499308806,
+    "content": "Comment test",
+    "createdAt": "2025-12-23T14:28:24.536Z"
+  },
+  {
+    "id": 1766500244706,
+    "postId": 1766499308806,
+    "content": "Comment test",
+    "createdAt": "2025-12-23T14:30:44.706Z"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "name": "day-2-be",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "npm i"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "http-status-codes": "^2.3.0",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,52 @@
+
+
+GET  http://localhost:3000/api/posts
+
+
+POST  http://localhost:3000/api/posts
+Content-Type: application/json
+
+{
+  "title": "Test",
+  "content": "Test"
+}
+
+
+GET  http://localhost:3000/api/posts/1766498641355
+
+
+PUT  http://localhost:3000/api/posts/1766498641355
+Content-Type: application/json
+
+{
+  "title": "Test update",
+  "content": "Test update"
+}
+
+
+DELETE  http://localhost:3000/api/posts/1766499308806
+
+GET  http://localhost:3000/api/comments
+
+
+POST  http://localhost:3000/api/comments
+Content-Type: application/json
+
+{
+  "postId": 1766499308806,
+  "content": "Comment test"
+}
+
+
+GET  http://localhost:3000/api/comments/1766498718346
+
+###
+
+PUT  http://localhost:3000/api/comments/1766498718346
+Content-Type: application/json
+
+{
+  "content": "Comment đã update"
+}
+
+DELETE  http://localhost:3000/api/comments/1766498718346
