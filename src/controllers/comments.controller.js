@@ -1,5 +1,5 @@
+import { commentModel } from "#models/comment.model.js";
 import { StatusCodes } from "http-status-codes";
-import { commentModel } from "../models/comment.model.js";
 class CommentsController {
   async getAll(req, res) {
     try {

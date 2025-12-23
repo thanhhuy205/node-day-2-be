@@ -1,6 +1,6 @@
+import { appRouter } from "#routes/index.js";
 import cors from "cors";
 import express from "express";
-import { appRouter } from "./routes/index.js";
 
 const app = express();
 app.use(express.json());

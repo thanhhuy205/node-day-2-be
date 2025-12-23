@@ -1,5 +1,5 @@
+import { VALIDATE_MESSAGES } from "#constant/message.constant.js";
 import * as yup from "yup";
-import { VALIDATE_MESSAGES } from "../constant/message.constant.js";
 
 export const createPostSchema = yup.object({
   body: yup.object({

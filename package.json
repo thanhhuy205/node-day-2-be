@@ -7,6 +7,15 @@
   "author": "",
   "type": "module",
   "main": "server.js",
+  "imports": {
+    "#controllers/*": "./src/controllers/*",
+    "#models/*": "./src/models/*",
+    "#routes/*": "./src/routes/*",
+    "#middlewares/*": "./src/middlewares/*",
+    "#validations/*": "./src/validations/*",
+    "#constant/*": "./src/constant/*",
+    "#utils/*": "./src/utils/*"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
