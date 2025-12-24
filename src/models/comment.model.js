@@ -1,8 +1,11 @@
 import { MODEL_MESSAGES } from "#constant/message.constant.js";
 import { db } from "#utils/jsonDB.js";
+import { postModel } from "./post.model";
 
 class Comment {
   async create({ postId, content }) {
+    const post = await postModel.findOneById(postId);
+    if (!post) throw new Error(MODEL_MESSAGES.POST_NOT_FOUND);
     const comments = await db.loadDB("comments");
 
     const comment = {
