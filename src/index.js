@@ -10,7 +10,7 @@ const corsOptions = {
   origin: function (origin, callback) {
     if (!origin) return callback(null, true);
     if (allowOrigins.includes(origin)) {
-      callback(null, true);
+      return callback(null, true);
     }
     return callback(null, false);
   },
