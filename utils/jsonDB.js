@@ -5,7 +5,7 @@ import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const DB_DIR = path.join(__dirname, "../../db");
+const DB_DIR = path.join(__dirname, "../db");
 const loadDB = async (resourceName) => {
   try {
     const data = await fs.readFile(`${DB_DIR}/${resourceName}.json`, "utf8");
