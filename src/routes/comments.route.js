@@ -1,4 +1,4 @@
-import commentsController from "#controllers/comments.controller.js";
+import commentsController from "#controllers/comment.controller.js";
 import { validate } from "#middlewares/validate.middleware.js";
 import {
   createCommentSchema,

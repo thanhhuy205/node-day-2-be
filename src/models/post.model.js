@@ -1,6 +1,6 @@
 import { MODEL_MESSAGES } from "#constant/message.constant.js";
 import { commentModel } from "#models/comment.model.js";
-import { db } from "#utils/jsonDB.js";
+import { db } from "../../utils/jsonDB.js";
 
 class Post {
   async create({ title, content }) {

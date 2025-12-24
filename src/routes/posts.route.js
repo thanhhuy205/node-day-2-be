@@ -1,4 +1,4 @@
-import postsController from "#controllers/posts.controller.js";
+import postsController from "#controllers/post.controller.js";
 import { validate } from "#middlewares/validate.middleware.js";
 import {
   createPostSchema,

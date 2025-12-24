@@ -1,5 +1,5 @@
 import { MODEL_MESSAGES } from "#constant/message.constant.js";
-import { db } from "#utils/jsonDB.js";
+import { db } from "../../utils/jsonDB.js";
 import { postModel } from "./post.model.js";
 
 class Comment {
